@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-status-bar" content="#808080" />
+    <meta name="theme-color" content="#808080" />
     <title>Through the Years</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./assets/images/logo16.jpg" />
+    <link rel="apple-touch-icon" href="./assets/images/logo48.jpg" />
+    <link rel="apple-touch-icon" href="./assets/images/logo128.jpg" />
+    <link rel="apple-touch-icon" href="./assets/images/logo512.jpg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,28 +20,73 @@
     />
     <link href="assets/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">About this App</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >About this App</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./slideshow.html">Photos & Memories</a>
+              <a class="nav-link" href="slideshow.html">Photos & Memories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/acknowledgements.html">Acknowledgements</a>
+              <a class="nav-link" href="acknowledgements.html"
+                >Acknowledgements</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <main class="flex-shrink-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card bg-dark">
+              <img
+                src="./assets/images/manofthesea.JPG"
+                alt="the old man of the sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  About This App
+                </h5>
+                <p class="lead text-center">
+                  This app was created in honor of Florian "Floyd" Matos' 90th
+                  birthday. A veteran, adventurer, writer, and loving father,
+                  Floyd's life has taken him from New York to points all round
+                  the world. The photos contained here seek to explore, as much
+                  as they can, the incredible story that is his life.
+                </p>
+                <br />
+                <p class="lead text-center">And to many more!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted">Copyright 2021 Charlie Puente</span>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
