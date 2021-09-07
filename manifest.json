@@ -5,6 +5,7 @@
     "background_color": "#808080",
     "theme_color": "#808080",
     "display": "standalone",
+    "orientation": "portrait-primary",
     "icons": [
       {
         "src": "assets/images/logo16.png",
@@ -13,17 +14,17 @@
       },
       {
         "src": "assets/images/logo48.png",
-        "sizes": "48x48",
+        "sizes": "48x47",
         "type": "image/png"
       },
       {
         "src": "assets/images/logo128.png",
-        "sizes": "128x128",
+        "sizes": "128x125",
         "type": "image/png"
       },
       {
         "src": "assets/images/logo512.png",
-        "sizes": "512x512",
+        "sizes": "512x500",
         "type": "image/png"
       }
     ] 
