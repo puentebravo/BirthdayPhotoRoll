@@ -6,7 +6,10 @@ self.addEventListener("install", (event) => {
         "./index.html",
         "./slideshow.html",
         "./acknowledgements.html",
-        "./assets/images",
+        "./assets/images/kidflorian.jpg",
+        "./assets/images/manofthesea.jpg",
+        "./assets/images/reachingout.jpg",
+        "./assets/images/floydwithsofi.jpg",
         "./assets/script.js",
         "./assets/style.css",
       ]);
