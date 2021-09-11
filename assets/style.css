@@ -7,3 +7,9 @@ body {
     color: white;
     margin: 10px;
 }
+
+#leadImg {
+    width: 100%;
+    max-width: 600px;
+    max-height: fit-content;
+}
