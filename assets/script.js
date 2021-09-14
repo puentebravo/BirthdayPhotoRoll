@@ -130,11 +130,15 @@ const photoArray = [
     alt: "The sailor returns to the waves",
   },
   {
+    source: "./assets/images/thanksGiving.jpg",
+    alt: "The whole family celebrates",
+  },
+  {
     source: "./assets/images/reachingout.jpg",
     alt: "Floyd and sofi during the pandemic",
   },
   {
-    source: "./assets/images/floudwithsofi.jpg",
+    source: "./assets/images/floydwithsofi.jpg",
     alt: "The sailor and the child",
   },
   {
